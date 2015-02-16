@@ -1,0 +1,12 @@
+Repare que, aqui, se você tivesse usado herança, não iria ganhar muito, 
+já que cada implementação é totalmente diferente da outra: um Quadrado, 
+um Retangulo e um Circulo têm atributos e métodos bem diferentes.
+
+Mas, mesmo que eles tivessem atributos em comum, utilizar interfaces é 
+uma maneira muito mais elegante de modelar suas classes. Elas também 
+trazem vantagens em não acoplar as classes. Uma vez que herança através 
+de classes traz muito acoplamento, muitos autores renomados dizem que, 
+na maioria dos casos, herança quebra o encapsulamento, pensamento com o 
+qual a equipe da Caelum concorda plenamente.
+
+Veja a classe de Teste e repare no polimorfismo.

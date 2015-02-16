@@ -1,0 +1,28 @@
+Interfaces é como um contrato que resolve certas situações que a herança simplesmente
+não resolve. No mundo Java usamos muito interfaces e é com o uso dela que praticamos
+muito o polimorfismo. O Polimorfismo é um dos grandes segredos da orientação a 
+objetos.
+
+Na Herança você ganha:
+- Atributos;
+- Metódos;
+- Implementações;
+
+Na Interface você ganha:
+- Certeza que o método existe.
+
+
+É interessante enxergar que as interfaces costumam ligar classes muito distintas, 
+unindo-as por uma característica que elas tem em comum. No nosso exemplo, 
+SeguroDeVida e ContaCorrente são entidades completamente distintas, porém 
+ambas possuem a característica de serem tributáveis.
+
+Quanto menos acoplado o código, mais fácil é sua manutenção, já que alterar uma
+classe não deve atrapalhar o funcionamento das outras. Note que o uso de interfaces
+cria uma ligação entre tipos que permite o polimorfismo, mas é bem menos intrusivo
+do que a herança: não é possível reaproveitar código da mãe.
+Por um lado, isso pode parecer negativo e, por vezes, teremos um trecho de código
+repetido. Mas a certeza de que, ao mudar uma classe, não afetaremos as outras, é 
+muito confortável. Para usar interfaces e evitar a repetição, procure pelo conceito
+de composição.
+
